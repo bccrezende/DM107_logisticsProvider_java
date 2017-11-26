@@ -11,13 +11,13 @@ public class DeliveryModel {
 	
 	public DeliveryModel(){}
 
-	public DeliveryModel(int id, int order_number, int client_id, String receiver_name, String receiver_cpf, String data) {
+	public DeliveryModel(int id, int orderNumber, int clientId, String receiverName, String receiverCpf, String date) {
 		this.id = id;
-		this.setOrderNumber(order_number);
-		this.setClientId(client_id);
-		this.setReceiverName(receiver_name);
-		this.setReceiverCpf(receiver_cpf);
-		this.setDate(data);
+		this.orderNumber = orderNumber;
+		this.clientId = clientId;
+		this.receiverName = receiverName;
+		this.receiverCpf = receiverCpf;
+		this.date = date;
 	}
 
 	public int getId() {

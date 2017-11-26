@@ -11,7 +11,7 @@ public class ConnectionFactory {
 	public Connection getConnection() throws SQLException {
 		DriverManager.registerDriver(new com.mysql.jdbc.Driver());	
 		return DriverManager.getConnection(
-				"jdbc:mysql://localhost:3306/dm107", "root", "");
+				"jdbc:mysql://localhost:3306/logisticsprovider", "root", "");
 	 }
 
 }
